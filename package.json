@@ -1,6 +1,6 @@
 {
   "name": "gulp-test-i18n",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Gulp plugin to generate a test translation file from GNU gettext POT files with a configurable function",
   "main": "index.js",
   "scripts": {
