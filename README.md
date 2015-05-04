@@ -6,7 +6,7 @@ Gulp plugin to generate a test translation file from GNU gettext POT files with 
     var gulp = require('gulp'),
         g = require('gulp-load-plugins')({lazy: false});
 
-    gulp.task('pseudo', function() {
+    gulp.task('test-translations', function() {
       return gulp.src('po/**/*.pot')
         .pipe(g.testI18n({
           // optional parameters
@@ -18,3 +18,5 @@ Gulp plugin to generate a test translation file from GNU gettext POT files with 
         }))
         .pipe(gulp.dest('./translations/'));
     });
+
+Based on https://www.npmjs.com/package/gulp-pseudo-i18n
