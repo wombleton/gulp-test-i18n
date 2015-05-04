@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/wombleton/gulp-test-i18n",
   "dependencies": {
-    "babel": "^5.2.9",
     "gettext-parser": "^1.1.0",
     "gulp-util": "^3.0.4",
     "lodash": "^3.8.0",
